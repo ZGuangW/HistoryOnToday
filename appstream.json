@@ -1,0 +1,26 @@
+{
+  "version": "1.0.2",
+  "protocol": [
+    "http",
+    "https"
+  ],
+  "rooturl": "",
+  "index": {
+    "href": "index2.html",
+    "resources": [
+      "manifest.json",
+      "js/getJSON.js",
+      "js/mui.min.js",
+      "css/mui.min.css",
+      "fonts/mui.ttf"
+    ],
+    "priority": 0
+  },
+  "idle": {
+    "resources": [
+      "index.html",
+      "js/mui.js",
+      "css/mui.css"
+    ]
+  }
+}
