@@ -187,5 +187,26 @@
 				}
 			}
 		}
+	},
+	"dependencies": {
+		"pages": {
+			"index2.html": {
+				"resources": [
+					"js/mui.min.js",
+					"css/mui.min.css",
+					"fonts/mui.ttf"
+				],
+				"refer": [],
+				"priority": 0
+			}
+		},
+		"idle": {
+			"resources": [
+				"index.html",
+				"js/mui.js",
+				"css/mui.css",
+				"js/getJSON.js"
+			]
+		}
 	}
 }
